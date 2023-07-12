@@ -77,6 +77,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Common\ViewModelBase.cs" />
+    <Compile Include="GameProject\NewProject.cs" />
     <Compile Include="GameProject\NewProjectView.xaml.cs">
       <DependentUpon>NewProjectView.xaml</DependentUpon>
     </Compile>
