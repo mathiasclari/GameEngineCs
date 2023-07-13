@@ -24,7 +24,7 @@ namespace NoxiEditor.GameProject
             }
         }
 
-        private string _path = "C:\\";
+        private string _path = $@"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\NoxiEditor\Projects\";
 
         public string Path
         {
